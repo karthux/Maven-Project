@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [com.vmetry.pagetests.LoginTest]">
+  <test thread-count="5" verbose="0" name="Command line test(failed)">
+    <classes>
+      <class name="com.vmetry.pagetests.LoginTest">
+        <methods>
+          <include name="testLogin" invocation-numbers="2"/>
+          <include name="precond"/>
+        </methods>
+      </class> <!-- com.vmetry.pagetests.LoginTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [com.vmetry.pagetests.LoginTest] -->
